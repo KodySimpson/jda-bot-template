@@ -10,7 +10,7 @@ public class DiscordBot {
 
     public static void main(String[] args) throws LoginException {
 
-        JDA bot = JDABuilder.createDefault("OTQ2MTg0OTM3NTc1NDI4MTE2.YhbBZA.xizOVTtflX8E07RNpjh4M0-yVOI")
+        JDA bot = JDABuilder.createDefault("token here")
                 .setActivity(Activity.playing("with your mom"))
                 .build();
 
